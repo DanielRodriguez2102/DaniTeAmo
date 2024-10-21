@@ -134,10 +134,17 @@ body {
   }
 }
 
-.flop h3 {
-  font-size: 20px;
-  transform: translate(-50%, -180%);
-  justify-content: space-between;
-  font-style: italic;
-  animation: colorChange 5s infinite, fadeIn 2s ease-in-out;
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%; /* Cada tarjeta ocupa el ancho completo en pantallas pequeñas */
+    max-width: 90%;
+    margin: 10px auto;
+  }
+
+  .flop h3 {
+    font-size: 16px; /* Reducir el tamaño de la fuente del mensaje */
+    text-align: center;
+    transform: translate(0, -180%);
+  }
 }
+
