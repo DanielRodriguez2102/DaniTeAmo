@@ -146,12 +146,16 @@ body {
 }
 
 /* Media queries para pantallas pequeñas */
-@media (max-width: 800px) {
+@media (max-width: 375px) {
   .card {
-    width: 350px;
-    height: 350px;
+    width: 90vw;
+    height: auto; 
+    padding: 10px; 
   }
-  
+
+  .card .back {
+    padding: 15px;
+
   .card .back h3 {
     font-size: 18px;
   }
