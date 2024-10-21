@@ -146,9 +146,9 @@ body {
 }
 
 /* Media queries para pantallas pequeñas */
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .card {
-    height: 250px;
+    height: 450px;
   }
   
   .card .back h3 {
